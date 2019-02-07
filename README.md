@@ -1,0 +1,2 @@
+# Tyler-McDonald-ExcelSignature
+"I have a macro built in PowerShell to open the Signature tool for Excel. I am trying to automate inserting a signature block on an Excel report.  The macro works as it should, but I can not get sendkeys("~") to work within Excel to simluate clicking the OK button so the signature block is inserted.  It does pass the enter key but it passes it to PowerShell."  - Solution was to use COM Object interface for excel and leverage the Add signature method
